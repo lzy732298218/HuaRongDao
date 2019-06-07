@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:id="@+id/Qp"
+        android:layout_width="400dp"
+        android:layout_height="623dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/Qz1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/img7" />
+
+        <Button
+            android:id="@+id/Qz2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/img7" />
+
+        <Button
+            android:id="@+id/Qz3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/img7" />
+
+        <Button
+            android:id="@+id/Qz4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/img7" />
+
+        <Button
+            android:id="@+id/Qz5"
+            android:layout_width="90dp"
+            android:layout_height="180dp"
+            android:background="@drawable/img6" />
+
+        <Button
+            android:id="@+id/Qz6"
+            android:layout_width="90dp"
+            android:layout_height="180dp"
+            android:background="@drawable/img5" />
+
+        <Button
+            android:id="@+id/Qz7"
+            android:layout_width="90dp"
+            android:layout_height="180dp"
+            android:background="@drawable/img4" />
+
+        <Button
+            android:id="@+id/Qz8"
+            android:layout_width="90dp"
+            android:layout_height="180dp"
+            android:background="@drawable/img3" />
+
+        <Button
+            android:id="@+id/Qz9"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:background="@drawable/img1" />
+
+        <Button
+            android:id="@+id/Qz10"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:background="@drawable/img2" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="fill_parent"
+        android:layout_height="96dp"
+        android:layout_marginTop="7dp"
+        android:text="Hello World!"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Qp"
+        app:layout_constraintVertical_bias="0.965" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"
+        android:text="最好成绩：0步"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text1"
+        app:layout_constraintVertical_bias="0.965" />
+
+</android.support.constraint.ConstraintLayout>
