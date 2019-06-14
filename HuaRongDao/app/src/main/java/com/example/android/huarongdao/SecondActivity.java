@@ -295,6 +295,10 @@ public class SecondActivity extends AppCompatActivity {
             SharedPreferences sharedPreferences = getSharedPreferences("横刀立马",Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
             int step1 = sharedPreferences.getInt("step",0);
+            if(step1 == 0)
+            {
+                step = step;
+            }
             if(step1 <= step){
                 step = step1;
             }
@@ -308,6 +312,10 @@ public class SecondActivity extends AppCompatActivity {
             SharedPreferences sharedPreferences = getSharedPreferences("指挥若定",Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
             int step1 = sharedPreferences.getInt("step",0);
+            if(step1 == 0)
+            {
+                step = step;
+            }
             if(step1 <= step){
                 step = step1;
             }
@@ -321,6 +329,10 @@ public class SecondActivity extends AppCompatActivity {
             SharedPreferences sharedPreferences = getSharedPreferences("齐头并进",Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
             int step1 = sharedPreferences.getInt("step",0);
+            if(step1 == 0)
+            {
+                step = step;
+            }
             if(step1 <= step){
                 step = step1;
             }
